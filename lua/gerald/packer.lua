@@ -16,5 +16,8 @@ return require('packer').startup(function(use)
 -- Setting treesitter pluggin
 use( 'nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
 use ('nvim-treesitter/playground')
-
+use ('nvim-lua/plenary.nvim')
+use ('ThePrimeagen/harpoon')
+use ('mbbill/undotree')
+use ('tpope/vim-fugitive')
   end)
