@@ -84,6 +84,21 @@ _G.packer_plugins = {
     path = "/home/gerald/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
   },
+  ["mason-lspconfig.nvim"] = {
+    loaded = true,
+    path = "/home/gerald/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
+    url = "https://github.com/williamboman/mason-lspconfig.nvim"
+  },
+  ["mason.nvim"] = {
+    loaded = true,
+    path = "/home/gerald/.local/share/nvim/site/pack/packer/start/mason.nvim",
+    url = "https://github.com/williamboman/mason.nvim"
+  },
+  ["nvim-lspconfig"] = {
+    loaded = true,
+    path = "/home/gerald/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
+    url = "https://github.com/neovim/nvim-lspconfig"
+  },
   ["nvim-tree.lua"] = {
     loaded = true,
     path = "/home/gerald/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
@@ -118,6 +133,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/gerald/.local/share/nvim/site/pack/packer/start/vim-devicons",
     url = "https://github.com/ryanoasis/vim-devicons"
+  },
+  ["vim-eldar"] = {
+    loaded = true,
+    path = "/home/gerald/.local/share/nvim/site/pack/packer/start/vim-eldar",
+    url = "https://github.com/agude/vim-eldar"
   }
 }
 

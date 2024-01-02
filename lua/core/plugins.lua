@@ -20,6 +20,13 @@ return require('packer').startup(function(use)
   use "nvim-tree/nvim-web-devicons"
   use 'ryanoasis/vim-devicons'
   use 'nvim-treesitter/nvim-treesitter'
+  use 'agude/vim-eldar'
+  -- LSP Packages
+  use {
+     "williamboman/mason.nvim",
+     "williamboman/mason-lspconfig.nvim",
+     "neovim/nvim-lspconfig",
+  }
   use {
       'nvim-lualine/lualine.nvim',
       requires = { 'nvim-tree/nvim-web-devicons', opt = true }
