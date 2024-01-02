@@ -10,7 +10,11 @@ vim.opt.autowrite = true
 vim.opt.autoread = true
 
 -- Setting the GUI cursor
+-- And numeration
 vim.opt.guicursor = ""
+vim.wo.number = true
+vim.wo.relativenumber = true
+
 
 -- Setting spaces for tabs 
 vim.opt.tabstop = 4
